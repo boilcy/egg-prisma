@@ -17,7 +17,7 @@ npm run dbmigrate xx //npx prisma migrate dev --name "xx"
 安装关键依赖:
 
 ```
-npm i @prisma/client apollo-server-koa graphql graphql-fields reflect-metadata class-validator type-graphql typegraphql-prisma 
+npm i @prisma/client apollo-server-koa graphql@15.3.0 graphql-fields reflect-metadata class-validator type-graphql typegraphql-prisma 
 ```
 
 然后复制lib/index.js
